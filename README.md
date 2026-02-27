@@ -2,5 +2,5 @@
 
 This demo app shows how to build communication between parent and child components in React.
 
-See the [Tutorial](/doc/tutorial.md) for more details.
+See the [Tutorial](/doc/tutorial/README.md) for more details.
 
