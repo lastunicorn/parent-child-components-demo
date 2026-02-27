@@ -19,7 +19,7 @@ function ParentComponent() {
 
 	return (
 		<div className="ParentComponent">
-			
+
 			<h1>Parent Component</h1>
 
 			<PersonEdit
