@@ -1,0 +1,19 @@
+.ParentComponent {
+	background-color: #606060;
+	padding: 20px;
+	border-radius: 5px;
+	max-width: 700px;
+	min-width: 50vw;
+}
+
+.ParentComponent .PersonView {
+	margin-top: 16px;
+}
+
+.ParentComponent h1 {
+	color: #fff;
+	font-size: 1.7rem;
+	line-height: 1.2;
+	text-align: center;
+	margin: 0 0 12px 0;
+}

@@ -1,9 +1,11 @@
 import './App.css'
+import ParentComponent from './features/person'
 
 function App() {
 	return (
 		<>
-			<h1>React Child Component</h1>
+			<h1>Child Component Demo</h1>
+			<ParentComponent />
 		</>
 	)
 }
