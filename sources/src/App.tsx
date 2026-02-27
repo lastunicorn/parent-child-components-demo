@@ -4,7 +4,7 @@ import ParentComponent from './features/person'
 function App() {
 	return (
 		<>
-			<h1>Child Component Demo</h1>
+			<h1>Parent-Child Components Demo</h1>
 			<ParentComponent />
 		</>
 	)
