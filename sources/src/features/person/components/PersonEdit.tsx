@@ -7,6 +7,8 @@ type PersonEditProps = PersonData & {
 }
 
 function PersonEdit({ name, age, isStudent, onPersonChange }: PersonEditProps) {
+	console.log('PersonEdit rendered');
+
 	function handleNameChange(event: ChangeEvent<HTMLInputElement>) {
 		onPersonChange({ name: event.target.value, age, isStudent })
 	}

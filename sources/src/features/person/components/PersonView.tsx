@@ -7,6 +7,8 @@ type PersonViewProps = {
 }
 
 function PersonView({ name, age, isStudent }: PersonViewProps) {
+	console.log('PersonView rendered');
+
 	return (
 		<div className="PersonView">
 

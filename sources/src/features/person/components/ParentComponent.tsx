@@ -5,6 +5,8 @@ import PersonEdit from './PersonEdit'
 import PersonView from './PersonView'
 
 function ParentComponent() {
+	console.log('ParentComponent rendered');
+
 	const [person, setPerson] = useState<PersonData>({
 		name: 'Alex',
 		age: 10,
