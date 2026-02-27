@@ -1,0 +1,17 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Run Vite App",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "npm run dev",
+			"cwd": "${workspaceFolder}/sources",
+			"serverReadyAction": {
+				"pattern": "Local:\\s+(https?://\\S+)",
+				"uriFormat": "%s",
+				"action": "openExternally"
+			}
+		}
+	]
+}
